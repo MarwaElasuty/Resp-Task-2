@@ -354,7 +354,8 @@ a {
     }
 
     .card {
-        width: 40%;
+        width: 52%;
+        margin-bottom: 20px;
     }
 }
 
