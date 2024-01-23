@@ -126,12 +126,13 @@ img[alt="humberger-menu"] {
     }
 
     #nav-links {
-        display: block;
+        display: none;
         width: 45%;
     }
 
     img[alt="humberger-menu"] {
-        display: none;
+        display: block;
+        padding-left: 3px;
     }
 }
 
