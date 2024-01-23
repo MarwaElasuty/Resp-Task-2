@@ -38,7 +38,6 @@ a {
 
 #nav-links {
     margin: auto;
-    display: none;
 }
 img[alt="humberger-menu"]{
     width: 30px;
@@ -142,11 +141,14 @@ img[alt="humberger-menu"]{
         margin: auto;
         font-size: 31px;
     }
+
     #nav-links{
-        display: block;
+        display: none;
+        width: 30%;
+        padding-right: 35px;
     }
     img[alt="humberger-menu"]{
-        display: none;
+        display: block;
     }
 }
 
@@ -162,12 +164,14 @@ img[alt="humberger-menu"]{
     }
     #nav-links{
         padding-right: 35px;
-        width: 30%;
-
+        width: 26%;
         display: none;
     }
     img[alt="humberger-menu"]{
         display: block;
+    }
+    #background-text>h1{
+        font-size: 47px;
     }
 }
 
