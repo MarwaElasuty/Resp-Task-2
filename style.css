@@ -87,18 +87,44 @@ a {
 @media screen and (max-width: 1200px) and (min-width:992px) {
     nav {
         width: 100%;
+        flex-direction: column;
+    }
+    #nav-links-btns {
+        margin: auto;
+        padding-top: 20px;
+        
+    }
+    #nav-links-btns button{
+        font-size: 20px;
+
+    }
+    ul{
+        width: 50%;
+        padding-top: 20px;
+        margin: auto;
+        font-size: 31px;
     }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     nav {
         flex-direction: column;
-
         width: 100%;
     }
     #nav-links-btns {
         margin: auto;
-        padding-top: 3px;
+        padding-top: 20px;
+        
+    }
+    #nav-links-btns button{
+        font-size: 20px;
+
+    }
+    ul{
+        width: 50%;
+        padding-top: 20px;
+        margin: auto;
+        font-size: 31px;
     }
 }
 
@@ -199,18 +225,32 @@ a {
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
     #background-text {
-        width: 45%;
-    }
+        width: 100%;
+        padding-bottom: 38px;
+        }
 
-    #background-img {}
+    #background-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     #background-text {
-        width: 45%;
+        width: 100%;
+        padding-bottom: 38px;
     }
 
-    #background-img {}
+    #background-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #background-img > img{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
@@ -250,19 +290,24 @@ a {
 @media screen and (min-width: 1200px) {
     #community {
         width: 75%;
+
     }
 }
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
     #community {
-        width: 83%;
+        width: 100%;
+        font-size: 23px;
+    }
 
+    #community p{
+        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     #community {
-        width: 83%;
+        font-size: 23px;
     }
 }
 
@@ -295,10 +340,57 @@ a {
     color: #919191;
 }
 
+
+/* clients media query */
+
+@media  screen and (max-width: 1200px) and (min-width:992px) {
+    #clients{
+        width: 83%;
+        font-size: 30px;
+    }
+}
+@media  screen and (max-width: 992px) and (min-width:786px) {
+    #clients{
+        width: 83%;
+    }
+}
+@media  screen and (max-width: 786px) and (min-width:600px) {
+    #clients{
+    }
+}
+@media  screen and (max-width: 600px){
+    #clients{
+    }
+}
+
 #sponsors {
     margin-top: 62px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+/* sponsors media query */
+
+@media  screen and (max-width: 1200px) and (min-width:992px) {
+    #sponsors{
+    }
+    #sponsors > img{
+        width: 12%;
+    }
+}
+@media  screen and (max-width: 992px) and (min-width:786px) {
+    #sponsors > img{
+        width: 16%;
+    }
+}
+@media  screen and (max-width: 786px) and (min-width:600px) {
+    #sponsors{
+    }
+}
+@media  screen and (max-width: 600px){
+    #sponsors{
+    }
 }
 
 #community {
@@ -344,8 +436,11 @@ a {
     }
 
     .card {
-        width: 93%;
+        width: 74%;
+        font-size: 23px;
     }
+
+    
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
@@ -354,7 +449,7 @@ a {
     }
 
     .card {
-        width: 52%;
+        width: 65%;
         margin-bottom: 20px;
     }
 }
@@ -426,30 +521,47 @@ a {
 @media screen and (max-width: 1200px) and (min-width:992px) {
     #description-text {
         padding-left: 25px;
-        width: 60%;
+        width: 100%;
+        font-size: 30px;
         text-align: center;
     }
 
     #description-text h1 {
         text-align: center;
         width: 100%;
-        font-size: 27px;
+        font-size: 42px;
         padding-top: 20px;
+    }
+    
+    #description-img{
+        width: 100%;
+    }
+     #description-img > img{
+        width: 60%;
     }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     #description-text {
         padding-left: 25px;
-        width: 55%;
+        width: 100%;
+        font-size: 30px;
         text-align: center;
     }
 
     #description-text h1 {
         text-align: center;
         width: 100%;
-        font-size: 20px;
+        font-size: 42px;
         padding-top: 20px;
+    }
+
+    #description-img{
+        width: 100%;
+    }
+
+    #description-img > img{
+        width: 60%;
     }
 }
 
@@ -572,7 +684,7 @@ img[alt="side-logo1"]{
 
 #statistics-left span:nth-of-type(2) {
     color: #919191;
-    font-size: 17px;
+    font-size: 30px;
     font-weight: 400;
     text-align: center;
 }
@@ -655,16 +767,16 @@ img[alt="side-logo1"]{
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     #statistics-left {
-        width: 45%;
+        width: 100%;
     }
 
     #statistics-left>h1 {
         width: 100%;
-        font-size: 40px;
+        font-size: 55px;
     }
 
     #statistics-left>span:nth-of-type(1) {
-        width: 70%;
+        width: 48%;
         font-size: 20px;
         text-align: left;
     }
@@ -676,7 +788,14 @@ img[alt="side-logo1"]{
     .text-div p {
         width: 46%;
     }
-   
+    #statistics-right{
+        width: 62%;
+        padding-top: 42px;
+    }
+
+    #statistics-right  h1{
+        padding-right: 78px;
+    }
 
 }
 
@@ -849,12 +968,25 @@ img[alt="side-logo1"]{
     }
 
     .marketing>h2 {
-        width: 56%;
+        width: 80%;
     }
 
     .marketing-cards-div>img {
-        width: 46%;
+        width: 49%;
     }
+
+    .marketing span:nth-of-type(1){
+        width: 100%;
+        font-size: 14px;
+    }
+    #smaller-span{
+        font-size: 29px;
+    }
+    .demo-btn{
+        font-size: 25px;
+        width: 35%;
+    }
+    
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
@@ -997,8 +1129,18 @@ img[alt="tesla"] {
         /* font-size: 17px; */
     }
 
+    #tesla-text > p{
+        width: 100%;
+        font-size: 13px;
+    }
+
     .small-sponsors a {
-        padding-top: 5px;
+        padding-top: 30px;
+        font-size: 26px;
+    }
+    .small-sponsors > img{
+        width: 16%;
+        padding-left: 5px;
     }
 }
 
