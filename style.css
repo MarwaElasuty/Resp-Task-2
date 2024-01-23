@@ -381,8 +381,17 @@ a {
 }
 @media  screen and (max-width: 992px) and (min-width:786px) {
     #sponsors > img{
-        width: 16%;
+        width: 21%;
+        padding-right: 20px;
     }
+
+    #sponsors{
+        width: 91%;
+        margin: auto;
+        padding-top: 45px;
+    }
+  
+
 }
 @media  screen and (max-width: 786px) and (min-width:600px) {
     #sponsors{
@@ -390,6 +399,9 @@ a {
 }
 @media  screen and (max-width: 600px){
     #sponsors{
+        width: 73%;
+        margin: auto;
+        padding-top: 45px;
     }
 }
 
@@ -982,9 +994,13 @@ img[alt="side-logo1"]{
     .marketing span:nth-of-type(1){
         width: 100%;
         font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     #smaller-span{
-        font-size: 29px;
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .demo-btn{
         font-size: 25px;
@@ -1004,7 +1020,8 @@ img[alt="side-logo1"]{
     }
 
     .marketing>span {
-        width: 100%;
+        width: 61%;
+
     }
 
     .marketing-cards-div>img {
@@ -1026,7 +1043,7 @@ img[alt="side-logo1"]{
     }
 
     .marketing>span {
-        width: 100%;
+        width: 81%;
     }
 
     .marketing-cards-div>img {
@@ -1143,7 +1160,7 @@ img[alt="tesla"] {
         font-size: 26px;
     }
     .small-sponsors > img{
-        width: 16%;
+        width: 11%;
         padding-left: 5px;
     }
 }
@@ -1151,6 +1168,7 @@ img[alt="tesla"] {
 @media screen and (max-width: 786px) and (min-width:600px) {
     .tesla-div {
         width: 90%;
+        padding-left: 33px;
     }
 
     #tesla-text {
@@ -1169,6 +1187,9 @@ img[alt="tesla"] {
 @media screen and (max-width: 600px) {
     .tesla-div {
         width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+
     }
 
     #tesla-text {
