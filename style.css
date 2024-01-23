@@ -449,8 +449,12 @@ a {
     }
 
     .card {
-        width: 65%;
+        width: 75%;
         margin-bottom: 20px;
+    }
+
+    .card h2 {
+      font-size: 40px;
     }
 }
 
