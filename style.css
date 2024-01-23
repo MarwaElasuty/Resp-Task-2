@@ -44,7 +44,8 @@ a {
 img[alt="humberger-menu"] {
     width: 30px;
 }
-.menu-div{
+
+.menu-div {
     position: absolute;
     top: 24px;
     left: 585px;
@@ -52,6 +53,9 @@ img[alt="humberger-menu"] {
 
 #nav-links-btns {
     display: flex;
+    /* position: absolute;
+    top: 5px;
+    left: 400px; */
     /* margin-left: 240px; */
     align-items: center;
 }
@@ -94,14 +98,17 @@ img[alt="humberger-menu"] {
 
     #nav-links {
         display: block;
-        
+
     }
 
     img[alt="humberger-menu"] {
         display: none;
     }
-    .menu-div{
-        
+
+    .menu-div {}
+
+    #brand-title-div{
+        padding-right: 700px;
     }
 }
 
@@ -124,7 +131,7 @@ img[alt="humberger-menu"] {
     }
 
     ul {
-        width: 50%;
+        width: 20%;
         padding-top: 20px;
         margin: auto;
         font-size: 31px;
@@ -132,8 +139,8 @@ img[alt="humberger-menu"] {
 
     #nav-links {
         display: none;
-        width: 45%;
-        position: absolute;
+        width: 100%;
+        position:absolute;
         top: 77px;
         background-color: white;
         position: absolute;
@@ -145,8 +152,12 @@ img[alt="humberger-menu"] {
         display: block;
         padding-left: 3px;
     }
-    .menu-div{
+
+    .menu-div {
         padding-left: 300px;
+    }
+    #brand-title-div{
+        padding-right: 700px;
     }
 }
 
@@ -168,7 +179,7 @@ img[alt="humberger-menu"] {
     }
 
     ul {
-        width: 50%;
+        width: 30%;
         padding-top: 20px;
         margin: auto;
         font-size: 31px;
@@ -176,7 +187,7 @@ img[alt="humberger-menu"] {
 
     #nav-links {
         display: none;
-        width: 30%;
+        width: 100%;
         padding-right: 35px;
         position: absolute;
         top: 77px;
@@ -186,9 +197,12 @@ img[alt="humberger-menu"] {
     img[alt="humberger-menu"] {
         display: block;
     }
-    
-    .menu-div{
+
+    .menu-div {
         padding-left: 304px;
+    }
+    #brand-title-div{
+        padding-right: 700px;
     }
 }
 
@@ -205,20 +219,22 @@ img[alt="humberger-menu"] {
 
     #nav-links {
         padding-right: 35px;
-        width: 26%;
+        width: 100%;
         display: none;
         position: absolute;
         top: 77px;
         background-color: white;
+    }
+    ul{
+        width: 30%;
     }
 
     img[alt="humberger-menu"] {
         display: block;
     }
 
-    .menu-div{
-        
-    }
+    .menu-div {}
+
     #background-text>h1 {
         font-size: 47px;
     }
@@ -231,7 +247,7 @@ img[alt="humberger-menu"] {
     }
 
     #nav-links {
-        width: 30%;
+        width: 100%;
         padding-top: 10px;
         padding-right: 35px;
         padding-bottom: 15px;
@@ -241,13 +257,15 @@ img[alt="humberger-menu"] {
         background-color: white;
     }
 
+    ul{
+        width: 30%;
+    }
+
     img[alt="humberger-menu"] {
         display: block;
     }
 
-    .menu-div{
-        
-    }
+    .menu-div {}
 
     #nav-links-btns {
         padding-top: 20px;
