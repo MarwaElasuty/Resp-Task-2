@@ -11,7 +11,7 @@ nav {
     align-items: center;
     background-color: #E8F5E9;
     justify-content: space-between;
-
+    position: relative;
     /* padding-right: 10px; */
     padding-top: 25px;
     font-weight: 500;
@@ -39,8 +39,14 @@ a {
 #nav-links {
     margin: auto;
 }
-img[alt="humberger-menu"]{
+
+img[alt="humberger-menu"] {
     width: 30px;
+}
+.menu-div{
+    position: absolute;
+    top: 24px;
+    left: 585px;
 }
 
 #nav-links-btns {
@@ -85,10 +91,11 @@ img[alt="humberger-menu"]{
         padding-left: 40px;
     }
 
-    #nav-links{
+    #nav-links {
         display: block;
     }
-    img[alt="humberger-menu"]{
+
+    img[alt="humberger-menu"] {
         display: none;
     }
 }
@@ -98,25 +105,32 @@ img[alt="humberger-menu"]{
         width: 100%;
         flex-direction: column;
     }
+
     #nav-links-btns {
         margin: auto;
         padding-top: 20px;
-        
-    }
-    #nav-links-btns button{
-        font-size: 20px;
 
     }
-    ul{
+
+    #nav-links-btns button {
+        font-size: 20px;
+        width: 200px;
+
+    }
+
+    ul {
         width: 50%;
         padding-top: 20px;
         margin: auto;
         font-size: 31px;
     }
-    #nav-links{
+
+    #nav-links {
         display: block;
+        width: 45%;
     }
-    img[alt="humberger-menu"]{
+
+    img[alt="humberger-menu"] {
         display: none;
     }
 }
@@ -126,28 +140,32 @@ img[alt="humberger-menu"]{
         flex-direction: column;
         width: 100%;
     }
+
     #nav-links-btns {
         margin: auto;
         padding-top: 20px;
-        
-    }
-    #nav-links-btns button{
-        font-size: 20px;
 
     }
-    ul{
+
+    #nav-links-btns button {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    ul {
         width: 50%;
         padding-top: 20px;
         margin: auto;
         font-size: 31px;
     }
 
-    #nav-links{
+    #nav-links {
         display: none;
         width: 30%;
         padding-right: 35px;
     }
-    img[alt="humberger-menu"]{
+
+    img[alt="humberger-menu"] {
         display: block;
     }
 }
@@ -162,15 +180,18 @@ img[alt="humberger-menu"]{
         padding-top: 20px;
         margin: auto;
     }
-    #nav-links{
+
+    #nav-links {
         padding-right: 35px;
         width: 26%;
         display: none;
     }
-    img[alt="humberger-menu"]{
+
+    img[alt="humberger-menu"] {
         display: block;
     }
-    #background-text>h1{
+
+    #background-text>h1 {
         font-size: 47px;
     }
 }
@@ -189,7 +210,7 @@ img[alt="humberger-menu"]{
         display: none;
     }
 
-    img[alt="humberger-menu"]{
+    img[alt="humberger-menu"] {
         display: block;
     }
 
@@ -198,10 +219,10 @@ img[alt="humberger-menu"]{
         margin: auto;
     }
 
-    #sign-up-btn{
+    #sign-up-btn {
         width: 120px;
     }
-    
+
 
 }
 
@@ -267,7 +288,7 @@ img[alt="humberger-menu"]{
     #background-text {
         width: 100%;
         padding-bottom: 38px;
-        }
+    }
 
     #background-img {
         width: 100%;
@@ -288,7 +309,7 @@ img[alt="humberger-menu"]{
         justify-content: center;
     }
 
-    #background-img > img{
+    #background-img>img {
         width: 38%;
     }
 }
@@ -340,7 +361,7 @@ img[alt="humberger-menu"]{
         font-size: 23px;
     }
 
-    #community p{
+    #community p {
         font-size: 30px;
     }
 }
@@ -383,24 +404,25 @@ img[alt="humberger-menu"]{
 
 /* clients media query */
 
-@media  screen and (max-width: 1200px) and (min-width:992px) {
-    #clients{
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    #clients {
         width: 83%;
         font-size: 30px;
     }
 }
-@media  screen and (max-width: 992px) and (min-width:786px) {
-    #clients{
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    #clients {
         width: 83%;
     }
 }
-@media  screen and (max-width: 786px) and (min-width:600px) {
-    #clients{
-    }
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    #clients {}
 }
-@media  screen and (max-width: 600px){
-    #clients{
-    }
+
+@media screen and (max-width: 600px) {
+    #clients {}
 }
 
 #sponsors {
@@ -412,33 +434,35 @@ img[alt="humberger-menu"]{
 
 /* sponsors media query */
 
-@media  screen and (max-width: 1200px) and (min-width:992px) {
-    #sponsors{
-    }
-    #sponsors > img{
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    #sponsors {}
+
+    #sponsors>img {
         width: 12%;
     }
 }
-@media  screen and (max-width: 992px) and (min-width:786px) {
-    #sponsors > img{
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    #sponsors>img {
         width: 21%;
         padding-right: 20px;
     }
 
-    #sponsors{
+    #sponsors {
         width: 91%;
         margin: auto;
         padding-top: 45px;
     }
-  
+
 
 }
-@media  screen and (max-width: 786px) and (min-width:600px) {
-    #sponsors{
-    }
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    #sponsors {}
 }
-@media  screen and (max-width: 600px){
-    #sponsors{
+
+@media screen and (max-width: 600px) {
+    #sponsors {
         width: 73%;
         margin: auto;
         padding-top: 45px;
@@ -492,7 +516,7 @@ img[alt="humberger-menu"]{
         font-size: 23px;
     }
 
-    
+
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
@@ -506,7 +530,7 @@ img[alt="humberger-menu"]{
     }
 
     .card h2 {
-      font-size: 40px;
+        font-size: 40px;
     }
 }
 
@@ -588,11 +612,12 @@ img[alt="humberger-menu"]{
         font-size: 42px;
         padding-top: 20px;
     }
-    
-    #description-img{
+
+    #description-img {
         width: 100%;
     }
-     #description-img > img{
+
+    #description-img>img {
         width: 60%;
     }
 }
@@ -612,11 +637,11 @@ img[alt="humberger-menu"]{
         padding-top: 20px;
     }
 
-    #description-img{
+    #description-img {
         width: 100%;
     }
 
-    #description-img > img{
+    #description-img>img {
         width: 60%;
     }
 }
@@ -723,7 +748,7 @@ img[alt="humberger-menu"]{
 }
 
 
-img[alt="side-logo1"]{
+img[alt="side-logo1"] {
     padding-right: 25px;
 }
 
@@ -816,6 +841,7 @@ img[alt="side-logo1"]{
         width: 86%;
         font-size: 18px;
     }
+
     .text-div p {
         width: 25%;
     }
@@ -841,15 +867,17 @@ img[alt="side-logo1"]{
         width: 72%;
         font-size: 18px;
     }
+
     .text-div p {
         width: 46%;
     }
-    #statistics-right{
+
+    #statistics-right {
         width: 62%;
         padding-top: 42px;
     }
 
-    #statistics-right  h1{
+    #statistics-right h1 {
         padding-right: 78px;
     }
 
@@ -875,14 +903,17 @@ img[alt="side-logo1"]{
         width: 78%;
         font-size: 18px;
     }
-    #first-div > h1{
+
+    #first-div>h1 {
         padding: 25px;
     }
-    #second-div > h1{
+
+    #second-div>h1 {
         padding-right: 30px;
         padding-left: 52px;
 
     }
+
     .text-div p {
         width: 30%;
     }
@@ -896,7 +927,7 @@ img[alt="side-logo1"]{
     #statistics-left>h1 {
         width: 100%;
         font-size: 50px;
-        
+
     }
 
     #statistics-left>span:nth-of-type(1) {
@@ -909,13 +940,16 @@ img[alt="side-logo1"]{
         width: 80%;
         font-size: 20px;
     }
-    #first-div > h1{
+
+    #first-div>h1 {
         padding: 25px;
     }
-    #second-div > h1{
+
+    #second-div>h1 {
         padding-right: 30px;
         padding-left: 52px;
     }
+
     .text-div p {
         width: 17%;
     }
@@ -1031,22 +1065,24 @@ img[alt="side-logo1"]{
         width: 49%;
     }
 
-    .marketing span:nth-of-type(1){
+    .marketing span:nth-of-type(1) {
         width: 100%;
         font-size: 14px;
         padding-left: 15px;
         padding-right: 15px;
     }
-    #smaller-span{
+
+    #smaller-span {
         font-size: 16px;
         padding-left: 15px;
         padding-right: 15px;
     }
-    .demo-btn{
+
+    .demo-btn {
         font-size: 25px;
         width: 35%;
     }
-    
+
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
@@ -1190,7 +1226,7 @@ img[alt="tesla"] {
         /* font-size: 17px; */
     }
 
-    #tesla-text > p{
+    #tesla-text>p {
         width: 100%;
         font-size: 11px;
     }
@@ -1199,7 +1235,8 @@ img[alt="tesla"] {
         padding-top: 30px;
         font-size: 26px;
     }
-    .small-sponsors > img{
+
+    .small-sponsors>img {
         width: 11%;
         padding-left: 5px;
     }
@@ -1305,7 +1342,7 @@ input::placeholder {
         font-size: 8px;
     }
 
-    .footer > div{
+    .footer>div {
         padding-left: 13px;
     }
 }
