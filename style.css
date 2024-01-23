@@ -1119,9 +1119,9 @@ img[alt="tesla"] {
         width: 100%;
     }
 
-    img[alt="tesla"] {
+    /* img[alt="tesla"] {
         width: 380px;
-    }
+    } */
 
     #tesla-text {
         width: 74%;
@@ -1131,7 +1131,7 @@ img[alt="tesla"] {
 
     #tesla-text > p{
         width: 100%;
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .small-sponsors a {
@@ -1238,6 +1238,10 @@ input::placeholder {
     .footer {
         width: 100%;
         font-size: 8px;
+    }
+
+    .footer > div{
+        padding-left: 13px;
     }
 }
 
