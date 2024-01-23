@@ -38,9 +38,7 @@ a {
 
 #nav-links {
     margin: auto;
-    position: absolute;
-    top: 77px;
-    background-color: white;
+   
     padding-bottom: 15px;
 }
 
@@ -97,6 +95,7 @@ img[alt="humberger-menu"] {
 
     #nav-links {
         display: block;
+        
     }
 
     img[alt="humberger-menu"] {
@@ -135,6 +134,12 @@ img[alt="humberger-menu"] {
     #nav-links {
         display: none;
         width: 45%;
+        position: absolute;
+        top: 77px;
+        background-color: white;
+        position: absolute;
+        top: 77px;
+        background-color: white;
     }
 
     img[alt="humberger-menu"] {
@@ -174,6 +179,9 @@ img[alt="humberger-menu"] {
         display: none;
         width: 30%;
         padding-right: 35px;
+        position: absolute;
+        top: 77px;
+        background-color: white;
     }
 
     img[alt="humberger-menu"] {
@@ -200,6 +208,9 @@ img[alt="humberger-menu"] {
         padding-right: 35px;
         width: 26%;
         display: none;
+        position: absolute;
+        top: 77px;
+        background-color: white;
     }
 
     img[alt="humberger-menu"] {
@@ -226,6 +237,9 @@ img[alt="humberger-menu"] {
         padding-right: 35px;
         padding-bottom: 15px;
         display: none;
+        position: absolute;
+        top: 77px;
+        background-color: white;
     }
 
     img[alt="humberger-menu"] {
