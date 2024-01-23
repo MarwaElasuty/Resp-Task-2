@@ -869,7 +869,7 @@ img[alt="side-logo1"] {
     }
 
     .text-div p {
-        width: 46%;
+        width: 50%;
     }
 
     #statistics-right {
@@ -1067,9 +1067,9 @@ img[alt="side-logo1"] {
 
     .marketing span:nth-of-type(1) {
         width: 100%;
-        font-size: 14px;
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 12px;
+        padding-left: 70px;
+        padding-right: 70px;
     }
 
     #smaller-span {
